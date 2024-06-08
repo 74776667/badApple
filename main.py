@@ -33,11 +33,11 @@ def read_emoji_art_files(folder_path):
         file_path = os.path.join(folder_path, filename)
         try:
             with open(file_path, "r", encoding="utf-8") as file:
-                time.sleep(0.0350)
+                time.sleep(0.0250)
                 print(f"Reading file: {filename}")
                 emoji_art = file.read()
                 print(emoji_art)
-
+                baAppleNote = cl.create_note(emoji_art,0)
                 print("\n")
             files_processed += 1
         except Exception as e:
