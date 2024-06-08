@@ -2,7 +2,7 @@
 bad apple video on Instagram notes
 
 Requirements
-- Instagrapi
+- Instagrapi <pip install instagrapi>
 - Bad Apple video
 
 How to use?
