@@ -3,6 +3,7 @@ bad apple video on Instagram notes
 
 Requirements
 - Instagrapi `pip install instagrapi`
+- clone this repo `git clone https://github.com/74776667/badApple`
 - Bad Apple video
 
 How to use?
